@@ -1,0 +1,58 @@
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Formulario Personalizado</title>
+    </head>
+    <body>
+
+        <form action="http://www.example.com/subscribe.php">
+            <fieldset>
+
+                <legend>Sus datos </legend>
+                <label> Nombre </b> <input type="text" name="nombre"/></label></b>
+                <br>
+                <br>
+
+                <label> Email </b> <input type="text" name="email"/></label></b>
+        
+            </fieldset>
+
+            <fieldset>
+
+            <legend>Su Opinion </legend>
+
+            <p> ¿Como se enteraron de nosotros?</p>
+        <select name="Google">
+        <option value="Periodico"> periodico </option>
+        <option value="radio">Radio</option>
+        <option value="Television"> Television</option>
+        <option value=" voz a voz"> Voz a voz</option> 
+    </select>
+    
+        <p> ¿Volveria a visitarnos?</p>
+     <input type="radio" name="genre" value="Si" checked="checked" /> Si
+    <input type="radio" name="genre" value="No"/> No 
+    <input type="radio" name="genre" value=" Tal vez"/> Tal vez
+
+    <p> Comentarios:</p>
+
+    <textarea
+        name="Comments"
+        cols="100"
+        rows="10"> </textarea></p>
+        
+
+        <p>
+        <input type="checkbox" name="Inscribete para actualizaciones por correo alectronico" 
+        value="Inscribete para actualizaciones por correo alectronico"
+         checked="Checkbox"/> Inscribete para actualizaciones por correo alectronico </p>
+
+         <form>
+         
+        <input type="submit" value="submit review"/>
+        </form>
+        </fieldset>
+
+
+    </body>
+    </html>
